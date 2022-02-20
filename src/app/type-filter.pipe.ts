@@ -1,16 +1,14 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import {Content} from "./helper-files/content-interface";
 
-@Pipe({
-  name: 'typeFilter'
-})
-export class TypeFilterPipe implements PipeTransform {
+@Pipe ({name: 'systemTypes'})
+export class SystemTypesPipe implements PipeTransform {
 
   transform(contentArray: Content[], type?: string): Content[] {
 
-    return contentArray.filter(content => {
-      console.log("Video Game Title: ", content.title, " type is set to ", content.type);
-      return type ? content.type === type : (!content.type || content.type === '');
+    return contentArray.filter(gaming => {
+      console.log("Video Game Title: ", gaming.title, " type is set to ", gaming.type);
+      return type ? gaming.type === type : (!gaming.type || gaming.type === '');
     });
   }
 
