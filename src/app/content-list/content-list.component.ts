@@ -10,6 +10,7 @@ import {Content} from '../helper-files/content-interface';
 export class ContentListComponent implements OnInit {
 
   contentArray: Content[];
+  titleFound?: boolean;
     
 
 
@@ -85,5 +86,20 @@ export class ContentListComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  checkForTitle(title: string): void{
+    if (this.contentArray.some(d => d.title === title))
+    {
+      this.titleFound = true;
+    }
+    else {
+      this.titleFound = false;
+    }
+    if (this.contentArray.filter(d => d.title === title).length)
+    {
+      this.titleFound = true;
+    }
+    else {
+      this.titleFound = false;
+    }
+  }
 }
