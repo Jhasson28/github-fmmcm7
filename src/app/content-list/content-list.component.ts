@@ -20,8 +20,8 @@ export class ContentListComponent implements OnInit {
       title: 'Pokemon Red',
       description: 'Pokémon Red Version and Pokémon Blue Version are 1996 role-playing video games developed by Game Freak and published by Nintendo for the Game Boy',
       creator: 'Game Freak',
-      imgURL: 'https://m.media-amazon.com/images/I/61RD48DCKQL._AC_.jpg',
-      type: 'GameBoy'
+      imgURL: 'https://archives.bulbagarden.net/media/upload/thumb/7/7e/006Charizard.png/250px-006Charizard.png',
+      type: 'Console'
 
     },
     {
@@ -30,7 +30,7 @@ export class ContentListComponent implements OnInit {
       description: 'The games feature a male bear named Banjo and his friend, a large female red bird called Kazooie, who are both controlled by the player',
       creator: 'Rare',
       imgURL: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Banjo_%26_Kazooie.png/220px-Banjo_%26_Kazooie.png',
-      type: 'Nintendo 64'
+      type: 'Console'
     },
     {
       id: 2,
@@ -38,7 +38,7 @@ export class ContentListComponent implements OnInit {
       description: 'Rust is a multiplayer-only survival video game developed by Facepunch Studios',
       creator: 'Facepunch Studios',
       imgURL: 'https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg?t=1645133322',
-      type: 'Playstation, Xbox, and Computers'
+      type: 'PC'
     },
     {
       id: 3,
@@ -46,7 +46,7 @@ export class ContentListComponent implements OnInit {
       description: 'Pokémon Legends: Arceus is an action role-playing game developed by Game Freak and published by Nintendo and The Pokémon Company for the Nintendo Switch',
       creator: 'Game Freak',
       imgURL: 'https://assets.nintendo.com/image/upload/ar_16:9,b_auto,c_pad,dpr_1.0,f_auto,q_auto,w_700/b_rgb:ffffff/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero',
-      type: 'Nintendo Switch'
+      type: 'Console'
     },
     {
       id: 4,
@@ -54,7 +54,7 @@ export class ContentListComponent implements OnInit {
       description: 'Minecraft is a sandbox video game developed by the Swedish video game developer Mojang Studios. The game was created by Markus "Notch" Persson in the Java programming language',
       creator: 'Mojang Studios',
       imgURL: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Minecraft_cover.png/220px-Minecraft_cover.png',
-      type: 'Just about every platform'
+      type: 'PC'
     },
     {
       id: 5,
@@ -62,7 +62,7 @@ export class ContentListComponent implements OnInit {
       description: 'Madden NFL 22 is an American football video game based on the National Football League, developed by EA Tiburon and published by Electronic Arts',
       creator: 'EA',
       imgURL: 'https://static-cdn.jtvnw.net/ttv-boxart/966064811_IGDB-144x192.jpg',
-      type: 'Xbox, Playstation, PC'
+      type: 'Console'
   },
   {
     id: 6,
