@@ -11,8 +11,8 @@
               [gaming]="item" [class.is-first]="isTheFirstElement" class="no-type"></app-content-card>
 
 
-<app-content-card [class.found]="titleSearch.value === item.title" *ngFor="let item of (contentArray | systemTypes: 'console'); first as isTheFirstElement"
-              [gaming]="item" [class.is-first]="isTheFirstElement" class="rookie"></app-content-card>
+<app-content-card [class.found]="titleSearch.value === item.title" *ngFor="let item of (contentArray | systemTypes: 'Console'); first as isTheFirstElement"
+              [gaming]="item" [class.is-first]="isTheFirstElement" class="console"></app-content-card>
 
 
 <app-content-card [class.found]="titleSearch.value === item.title" *ngFor="let item of (contentArray | systemTypes: 'PC'); first as isTheFirstElement"

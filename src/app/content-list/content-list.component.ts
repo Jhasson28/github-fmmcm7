@@ -75,8 +75,8 @@ export class ContentListComponent implements OnInit {
     id: 7,
     title: 'Terraria',
     description: 'Terraria is an action-adventure sandbox game developed by Re-Logic. ... The game features exploration, crafting, building, painting, and combat with a variety of creatures in a procedurally generated 2D world',
-    creator:'Re-Logic',
-    imgURL:'https://upload.wikimedia.org/wikipedia/en/thumb/4/42/TerrariaLogo2.png/220px-TerrariaLogo2.png'
+    creator:'Re-Logic'
+    
 
   }];
 }

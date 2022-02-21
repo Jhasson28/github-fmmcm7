@@ -16,4 +16,8 @@ export class ContentCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  logId(): void{
+    console.log("id: ", this.gaming?.id, " | title is: ", this.gaming?.title);
+  }
+
 }

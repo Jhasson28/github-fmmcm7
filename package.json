@@ -1,6 +1,6 @@
 {
   "name": "jvmioqajg.github",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "dependencies": {
     "rxjs": "7.4.0",
