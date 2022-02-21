@@ -1,5 +1,5 @@
 <div [ngSwitch]='gaming?.imgURL'>
-<div [style.color]='colour' class="name">{{ gaming?.type }}</div>
+<div [style.decoration]='decoration' class="name">{{ gaming?.type }}</div>
 <span *ngSwitchCase=""><img [src]="gaming?.defaultImage "> </span>
 <span *ngSwitchDefault><img [src]="gaming?.imgURL"></span>
 </div>
