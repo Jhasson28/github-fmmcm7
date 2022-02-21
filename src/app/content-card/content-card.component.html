@@ -1,5 +1,5 @@
 <div [ngSwitch]='gaming?.imgURL'>
-<span *ngSwitchCase=""><img [src]=""> </span>
+<span *ngSwitchCase=""><img [src]="gaming?.imgURL"> </span>
 <span *ngSwitchDefault><img [src]="gaming?.imgURL"></span>
 </div>
 <h2>{{ gaming?.title}}</h2>
