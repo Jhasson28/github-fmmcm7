@@ -22,7 +22,8 @@ export class ContentListComponent implements OnInit {
       creator: 'Game Freak',
       imgURL: 'https://archives.bulbagarden.net/media/upload/thumb/7/7e/006Charizard.png/250px-006Charizard.png',
       type: 'Console',
-      tags:['RPG']
+      tags:['RPG'],
+      defaultImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SNES-Controller-in-Hand.jpg/220px-SNES-Controller-in-Hand.jpg'
 
     },
     {
@@ -32,7 +33,8 @@ export class ContentListComponent implements OnInit {
       creator: 'Rare',
       imgURL: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Banjo_%26_Kazooie.png/220px-Banjo_%26_Kazooie.png',
       type: 'Console',
-      tags:['Action-Adventure']
+      tags:['Action-Adventure'],
+      defaultImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SNES-Controller-in-Hand.jpg/220px-SNES-Controller-in-Hand.jpg'
     },
     {
       id: 2,
@@ -41,7 +43,8 @@ export class ContentListComponent implements OnInit {
       creator: 'Facepunch Studios',
       imgURL: 'https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg?t=1645133322',
       type: 'PC',
-      tags:['Survival', 'PVP', 'PVE']
+      tags:['Survival', 'PVP', 'PVE'],
+      defaultImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SNES-Controller-in-Hand.jpg/220px-SNES-Controller-in-Hand.jpg'
     },
     {
       id: 3,
@@ -50,16 +53,17 @@ export class ContentListComponent implements OnInit {
       creator: 'Game Freak',
       imgURL: 'https://assets.nintendo.com/image/upload/ar_16:9,b_auto,c_pad,dpr_1.0,f_auto,q_auto,w_700/b_rgb:ffffff/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero',
       type: 'Console',
-      tags:['Action Role-Playing Game']
+      tags:['Action Role-Playing Game'],
+      defaultImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SNES-Controller-in-Hand.jpg/220px-SNES-Controller-in-Hand.jpg'
     },
     {
       id: 4,
       title: 'Minecraft',
       description: 'Minecraft is a sandbox video game developed by the Swedish video game developer Mojang Studios. The game was created by Markus "Notch" Persson in the Java programming language',
       creator: 'Mojang Studios',
-      imgURL: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Minecraft_cover.png/220px-Minecraft_cover.png',
       type: 'PC',
-      tags:['Survival', 'PVP', 'PVE']
+      tags:['Survival', 'PVP', 'PVE'],
+      defaultImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SNES-Controller-in-Hand.jpg/220px-SNES-Controller-in-Hand.jpg'
     },
     {
       id: 5,
@@ -68,7 +72,8 @@ export class ContentListComponent implements OnInit {
       creator: 'EA',
       imgURL: 'https://static-cdn.jtvnw.net/ttv-boxart/966064811_IGDB-144x192.jpg',
       type: 'Console',
-      tags:['Sports']
+      tags:['Sports'],
+      defaultImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SNES-Controller-in-Hand.jpg/220px-SNES-Controller-in-Hand.jpg'
   },
   {
     id: 6,
@@ -76,14 +81,16 @@ export class ContentListComponent implements OnInit {
     description: 'Like its predecessor, Pikmin 2 focuses on exploring the surface of an unknown planet from a microscopic perspective, where the player directs and delegates tasks to a horde of tiny plant-like creatures called Pikmin. The Pikmin can be directed to destroy obstacles, defeat enemies and retrieve objects.',
     creator: 'Nintendo',
     imgURL: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Pikmin_2_Case.jpg/220px-Pikmin_2_Case.jpg',
-    tags:['Strategy']
+    tags:['Strategy'],
+    defaultImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SNES-Controller-in-Hand.jpg/220px-SNES-Controller-in-Hand.jpg'
   },
   {
     id: 7,
     title: 'Terraria',
     description: 'Terraria is an action-adventure sandbox game developed by Re-Logic. ... The game features exploration, crafting, building, painting, and combat with a variety of creatures in a procedurally generated 2D world',
     creator:'Re-Logic',
-    tags:['Survival']
+    tags:['Survival'],
+    defaultImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SNES-Controller-in-Hand.jpg/220px-SNES-Controller-in-Hand.jpg'
 
     
 
