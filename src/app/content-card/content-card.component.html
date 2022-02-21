@@ -1,4 +1,7 @@
-
+<div [ngSwitch]='gaming?.imgURL'>
+<span *ngSwitchCase=""><img [src]="https://skillz4kidzmartialarts.com/wp-content/uploads/2017/04/default-image.jpg"> </span>
+<span *ngSwitchDefault><img [src]="gaming?.imgURL"></span>
+</div>
 <h2>{{ gaming?.title}}</h2>
 <p class="description">{{ gaming?.description }}</p>
 <div class="meta-data">
