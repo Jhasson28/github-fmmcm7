@@ -22,7 +22,7 @@ export class ContentListComponent implements OnInit {
       creator: 'Game Freak',
       imgURL: 'https://archives.bulbagarden.net/media/upload/thumb/7/7e/006Charizard.png/250px-006Charizard.png',
       type: 'Console',
-      tags:['Has-Image']
+      tags:['RPG']
 
     },
     {
@@ -32,7 +32,7 @@ export class ContentListComponent implements OnInit {
       creator: 'Rare',
       imgURL: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/Banjo_%26_Kazooie.png/220px-Banjo_%26_Kazooie.png',
       type: 'Console',
-      tags:['No-Image']
+      tags:['Action-Adventure']
     },
     {
       id: 2,
@@ -41,7 +41,7 @@ export class ContentListComponent implements OnInit {
       creator: 'Facepunch Studios',
       imgURL: 'https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg?t=1645133322',
       type: 'PC',
-      tags:['Has-Image']
+      tags:['Survival', 'PVP', 'PVE']
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ export class ContentListComponent implements OnInit {
       creator: 'Game Freak',
       imgURL: 'https://assets.nintendo.com/image/upload/ar_16:9,b_auto,c_pad,dpr_1.0,f_auto,q_auto,w_700/b_rgb:ffffff/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero',
       type: 'Console',
-      tags:['No-Image']
+      tags:['Action Role-Playing Game']
     },
     {
       id: 4,
@@ -59,7 +59,7 @@ export class ContentListComponent implements OnInit {
       creator: 'Mojang Studios',
       imgURL: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Minecraft_cover.png/220px-Minecraft_cover.png',
       type: 'PC',
-      tags:['Has-Image']
+      tags:['Survival', 'PVP', 'PVE']
     },
     {
       id: 5,
@@ -68,7 +68,7 @@ export class ContentListComponent implements OnInit {
       creator: 'EA',
       imgURL: 'https://static-cdn.jtvnw.net/ttv-boxart/966064811_IGDB-144x192.jpg',
       type: 'Console',
-      tags:['No-Image']
+      tags:['Sports']
   },
   {
     id: 6,
@@ -76,14 +76,14 @@ export class ContentListComponent implements OnInit {
     description: 'Like its predecessor, Pikmin 2 focuses on exploring the surface of an unknown planet from a microscopic perspective, where the player directs and delegates tasks to a horde of tiny plant-like creatures called Pikmin. The Pikmin can be directed to destroy obstacles, defeat enemies and retrieve objects.',
     creator: 'Nintendo',
     imgURL: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/38/Pikmin_2_Case.jpg/220px-Pikmin_2_Case.jpg',
-    tags:['No-Image']
+    tags:['Strategy']
   },
   {
     id: 7,
     title: 'Terraria',
     description: 'Terraria is an action-adventure sandbox game developed by Re-Logic. ... The game features exploration, crafting, building, painting, and combat with a variety of creatures in a procedurally generated 2D world',
     creator:'Re-Logic',
-    imgURL: "",
+    imgURL: "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/TerrariaLogo2.png/220px-TerrariaLogo2.png",
     tags:['Survival']
 
     
