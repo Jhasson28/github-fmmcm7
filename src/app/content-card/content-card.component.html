@@ -1,5 +1,5 @@
 <div [ngSwitch]='gaming?.imgURL'>
-<span *ngSwitchCase=""><img [src]=""> </span>
+<span *ngSwitchCase="gaming?.imgURL = null"><img [src]="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Doritos_Logo_%282013%29.png/220px-Doritos_Logo_%282013%29.png"> </span>
 <span *ngSwitchDefault><img [src]="gaming?.imgURL"></span>
 </div>
 <h2>{{ gaming?.title}}</h2>
