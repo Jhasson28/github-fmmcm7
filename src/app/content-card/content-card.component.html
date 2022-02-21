@@ -1,4 +1,6 @@
 <img *ngIf="gaming?.imgURL" (click)="logId()" [src]="gaming?.imgURL">
+<div [ngSwitch]='gaming?.imgURL'>
+  <span *ngSwitchCase='"null"'>  </span>
 
 
 <h2>{{ gaming?.title}}</h2>
