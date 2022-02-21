@@ -8,6 +8,7 @@ import {Content} from '../helper-files/content-interface';
 })
 export class ContentCardComponent implements OnInit {
   @Input() gaming?: Content;
+  textDecoration: string = "underline"
 
   constructor() { 
 
